@@ -65,4 +65,8 @@ public class Matriz {
         ret += "]\n";
         return ret;
     }
+	
+	public static Matriz multiplicarDosMatrices(Matriz a, Matriz b) throws DimensionesIncompatibles {
+	
+	}
 }
