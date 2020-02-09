@@ -65,4 +65,7 @@ public class Matriz {
         ret += "]\n";
         return ret;
     }
+	
+	public static Matriz invertirDosMatrices(Matriz a, Matriz b) throws DimensionesIncompatibles { 
+	}
 }
