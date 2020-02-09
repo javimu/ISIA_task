@@ -67,5 +67,7 @@ public class Matriz {
     }
 	
 	public static Matriz invertirDosMatrices(Matriz a, Matriz b) throws DimensionesIncompatibles { 
-	}
-}
+	
+	//Código para invertir matrices.
+	} // de InvertirMatrices
+} // de class
