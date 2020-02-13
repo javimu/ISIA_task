@@ -78,18 +78,18 @@ public class Matriz {
 	  throw new RuntimeException("No se pueden multiplicar las matrices");
 	}
 	
-	int[][] multiplicacion = new int[fil_m1][col_m2];
+	matriz multiplicacion = new int[fil_m1][col_m2];
 	
 	
 	for (int x=0; x < multiplicacion.length; x++) {
 	  for (int y=0; y < multiplicacion[x].length; y++) {
 	    for (int z=0; z
-	  
+	  multiplicar [x][i] += m1 [x][z] + m2 [z][i]
 	  
 	  }
 	  }
 	  }
-	  
+	  return multiplicar;
 	} // de multiplicarMatrices
 	
 	
