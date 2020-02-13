@@ -66,8 +66,25 @@ public class Matriz {
         return ret;
     }
 	
-	public static Matriz invertirDosMatrices(Matriz a, Matriz b) throws DimensionesIncompatibles { 
+	public static Matriz invertirMatriz(Matriz a){ 
 	
-	//Código para invertir matrices.
+matriz invertida;
+             int c = 0;
+             int f = 0;
+            
+             int n = invertida[0].lenght;
+             int m = invertida.lenght;
+            
+            
+             for (i= n-1; i >= 0; i--) {
+                 for (j = m-1; j >= 0; j--) {
+
+invertida [i][j] = a[n][m];
+m = m + 1;
+                 }
+                 n= n + 1;
+             }
+                    return invertida;
+					
 	} // de InvertirMatrices
 } // de class
